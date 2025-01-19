@@ -2,7 +2,6 @@ import { add } from './add.js';
 import { subtract } from './subtract.js';
 import { multiply } from './multiply.js';
 import { divide } from './divide.js';
-import { power } from './power.js';
 
 let num1 = parseFloat(prompt("Enter first number:"));
 let num2 = parseFloat(prompt("Enter second number:"));
