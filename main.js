@@ -6,7 +6,7 @@ import { power } from './power.js';
 
 let num1 = parseFloat(prompt("Enter first number:"));
 let num2 = parseFloat(prompt("Enter second number:"));
-let operation = prompt("Enter operation (+, -, *, /, ^):");
+let operation = prompt("Enter operation (+, -, *, /):");
 
 let result;
 switch (operation) {
@@ -21,9 +21,6 @@ switch (operation) {
         break;
     case '/':
         result = divide(num1, num2);
-        break;
-    case '^':
-        result = power(num1, num2);
         break;
     default:
         result = "Invalid operation!";
